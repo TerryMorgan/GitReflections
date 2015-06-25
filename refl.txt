@@ -1,17 +1,28 @@
+Udacity course: Git and GitHub, Lesson Reflections
+
+Lesson 1
+
 Viewing a diff btw the two versions greatly reduced the amount of code I had to read. I was only reading a few lines looking for the typo instead of a thousand.
-Having easy access to the history of a file could show me if I am making the same sort of mistake repeatedly, if I am progressing in my understanding by making a series of related mistakes.
+
+Having easy access to the history of a file could show me if I am making the same sort of mistake repeatedly, if I am progressing in my understanding by making a series of repeat mistakes.
+
 I want to save my code when there is a long pause in editing, when I chose and when a suffcient number of changes have accumulated.
 Manual saving stands the chance you wont commit often enough and the commits will be too big and not useful. 
+
 Some version control systems treat files separately because the changes are not likely to be related, like in GoogleDocs. Git treats files as a set because the files are code, and are likely to interrelate.
-git log gives you an overview of the type and frequency of changes. If[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3[3~[4~[4~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[3s
+
+git log gives you an overview of the type and frequency of changes. 
 If you incl --stat you get a sense of the size of the changes.
 git diff shows you the details of the changes 
+
 Using version control makes it much easier to make dangerous changes.
 The ease with which you can restore to a prior working copy makes it simple and not time consuming or brain power consuming to go back. 
 You don't have to save a complete copy of your app, just in case.
 When you've made the change you aren't as tempted to put things back manually.
 Rolling back is really easy and you can do it any time. 
-You can create a branch that makes the dangerous change and preserve your stable branch. The stable branch can continue advancing. You can edit copy, add images, etc. I don't know how mergeable the two would be, but if you understood merging, you could aim to affect different areas so that merging becomes a practical outcome.
+
+You can create a branch that makes the dangerous change and preserve your stable branch. The stable branch can continue advancing. You can edit copy, add images, etc. I don't know how mergeable the two would be, but if you understood merging, you could aim to affect different areas so that merging becomes a practical option.
+
 I want to try using Git to manage my next student project and my research into Wordpress themes and plugins.
 I think version control will help me to pare down my research notes to just the most relevant stuff without fear of deleting stuff I later want to get back. 
-Whatever my next web dev project I want to consciously use version control for traking logical changes, such as adding a feature, or completing new pages, etc. 
+Whatever my next web dev project, I want to consciously use version control for tracking logical changes, such as adding a feature, or completing new pages, etc. 
