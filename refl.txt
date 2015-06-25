@@ -26,3 +26,21 @@ You can create a branch that makes the dangerous change and preserve your stable
 I want to try using Git to manage my next student project and my research into Wordpress themes and plugins.
 I think version control will help me to pare down my research notes to just the most relevant stuff without fear of deleting stuff I later want to get back. 
 Whatever my next web dev project, I want to consciously use version control for tracking logical changes, such as adding a feature, or completing new pages, etc. 
+
+Lesson 2
+
+When you initialize a repository, git takes inventory of that directory. Notes the files avaiable to be tracked, and creates the record of files that are in and out of tracking. Without this step, there would be not .git file and no files would be tracked. The directory would not be a respository. 
+
+The staging area differs from the working directory in that it is a list that is a subset of the working directory. The working directory is all the files. The staging area is those files that are pending commit. The repository is all those files in the working directory that are being tracked, plus their histories.
+
+The value of the staging area is to give you control over what is included in one commit. By including only part of the file collection you can limit commits to logical chunks.
+
+To ensure you have one logical change per commit, review changed files in the working directory. Select only those files that were involved in that one logical change and stage them. Commit them. Repeat until you have staged and committed all the separate logical ideas. This assumes that you have not made more than one logical change to the same files. 
+
+Branches would be helpful in keeping history organized by giving meaningfull names to branches, rather than meaningless id numbers. The named branch is all about that topic and nothing else. You can be working on a new feature, and a branch keeps that feature separate, your small changes become linear commits along that branch. Branches allow you to radically experiment with your code, keeping the stable code version accessible for bug fixes and copy editing. 
+
+Diagrams of branch structure show where each commit is and what it's lineage is. They can help you understand why a commit is not on a named branch.
+
+The result of a merge is a single commit that contains the changes from both branches and the identity of both parents. 
+
+Automatic merging is much easier and faster but I suppose it might mangle your code. Depends how good it's algorithm is. Manual merging is way slower. Hopefully only needed when automatic detects a conflict. Git must be pretty good or it wouldn't be popular.
