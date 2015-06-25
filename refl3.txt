@@ -1,0 +1,7 @@
+You can have on your remote repo only those changes you are wanting to share.
+Think of this like the stable branch, the shared branch is the portion of the project that you make public on GitHub.
+
+When would you want to use a remote repository rather than keeping all your work local?
+When you are working with others on the same project.
+When you are wanting a remote backup, though this is not private. 
+You could push your whole repo to your own remote (for backup) and push the shared branch to the shared project repo (for collaborating).
