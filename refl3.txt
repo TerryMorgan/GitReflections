@@ -5,3 +5,17 @@ When would you want to use a remote repository rather than keeping all your work
 When you are working with others on the same project.
 When you are wanting a remote backup, though this is not private. 
 You could push your whole repo to your own remote (for backup) and push the shared branch to the shared project repo (for collaborating).
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Sounds like either could be bad. If you are working from two computers on the same branch and forget to pull before you begin work, you'll have two identically named branches with different content. 
+If you are working on the same branch as someone else you may not want their changes mixed with yours. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+a branch is a copy of a history of commits
+it exists only within a repo
+use it when you want to make changes but keep then temporarily separate from other branches. branches are usually merged into other branches at some point.
+a clone and a fork are both copies of repos
+a clone is a local copy from either a remote repo or another local repo
+a fork is a non-local copy from a non-local repo
+clone a repo when you will be contributing to that repo
+fork a repo when you wont be contributing to the original repo but will make your own version to which you will contribute 
