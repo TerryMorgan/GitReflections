@@ -18,4 +18,7 @@ a clone and a fork are both copies of repos
 a clone is a local copy from either a remote repo or another local repo
 a fork is a non-local copy from a non-local repo
 clone a repo when you will be contributing to that repo
-fork a repo when you wont be contributing to the original repo but will make your own version to which you will contribute 
+fork a repo when you wont be contributing to the original repo but will make your own version to which you will contribute
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Allows you to work offline, to inspect differences between the local and the remote, to merge local with remote when you are ready. 
