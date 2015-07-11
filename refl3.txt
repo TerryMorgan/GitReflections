@@ -22,3 +22,6 @@ fork a repo when you wont be contributing to the original repo but will make you
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Allows you to work offline, to inspect differences between the local and the remote, to merge local with remote when you are ready. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+you would need to keep several versions of the project directories, and back up all of them. you'd need people to say when they've got a file open so that other's could not change it. if you had two people working in the same file you'd need to frequently diff them using OS tools and copy/paste in the changes that were compatible. you'd have to test the compiled file to verify nothing broke.  The manual method would be manageable as long as you had good communication and leadership, and the team members diligently kept to boundaries.  In a distributed team this would only be possible with real time audio chat.  It would be easier to not have to use the complex git/github system, but it would be harder to manage the timing of file editing. 
